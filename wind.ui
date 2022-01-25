@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WIND</class>
+ <widget class="QWidget" name="WIND">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="show">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel
+{border:1px solid black}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QPushButton" name="BTNrgb">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>  CANCEL</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="BTNdilation">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>DILATION</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="BTNopening">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>OPENING</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="BTNsave">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>SAVE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="BTNerosion">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>EROSION</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="BTNclose">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>CLOSE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QPushButton" name="BTNgray">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>   Set Gray</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="BTNload">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.254902 rgba(15, 15, 15, 255), stop:0.36 rgba(40, 40, 40, 255), stop:0.6 rgba(29, 29, 29, 255), stop:0.75 rgba(43, 43, 43, 255), stop:0.79 rgba(43, 43, 43, 255), stop:0.86 rgba(53, 53, 53, 255), stop:0.935 rgba(58, 58, 58, 255));
+border:none;
+
+
+color:white;
+
+}
+
+QPushButton::hover
+{
+background-color:rgb(20, 20, 20);
+}</string>
+         </property>
+         <property name="text">
+          <string>     LOAD</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Thresholding</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QSlider" name="horizontalSlider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QSpinBox" name="sp1"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Tresh    </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QSlider" name="slid2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QSpinBox" name="sp2"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Max vlue</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
